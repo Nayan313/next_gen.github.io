@@ -72,13 +72,7 @@ a {
 }
 
 .header .logo {
-<<<<<<< HEAD
 	width: 30%;
-=======
-	font-weight: 500;
-	width: auto;
-	color: var(--main-color);
->>>>>>> 113f57642093664f03da683752ea518ca158cdb6
 }
 
 .logo-img {
