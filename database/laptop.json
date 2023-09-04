@@ -1,0 +1,23 @@
+[
+    {
+      "id": "1",
+      "title": "Crossback Halter Dress",
+      "description": "A shapely halter dress designed with slinky crossback straps and a leg-baring slit is an elegant option for your upcoming event.",
+      "img": "database/laptop/laptop (1).jpg",
+      "price": "67,599"
+    },
+    {
+      "id": "2",
+      "title": "Cutout Waist Long Sleeve Jersey Gown",
+      "description": "An oversized rosette unites the two halves of this arresting ruched gown sewn from crepe-textured jersey.",
+      "img": "database/laptop/laptop (2).jpg",
+      "price": "45,789"
+    },
+    {
+      "id": "3",
+      "title": "Cutout Waist Long Sleeve Jersey Gown",
+      "description": "An oversized rosette unites the two halves of this arresting ruched gown sewn from crepe-textured jersey.",
+      "img": "database/laptop/laptop (3).jpg",
+      "price": "45,789"
+    }
+]
