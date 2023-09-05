@@ -363,8 +363,12 @@ a {
 }
 #icon-fas{
 	padding: 5px;
-	margin: 0 2px;
+	margin: 0 1px;
     font-size: 16px;
+	@media(max-width: 791px) {
+		font-size: 10px;
+		margin-top: 4px;
+	}
 }
 .Add-to-cart-button{
 width: 100%;
@@ -374,6 +378,9 @@ font-size: 20px;
 padding: 5px 0;
 margin: 5px 0;
 text-transform: capitalize;
+@media(max-width: 791px) {
+		font-size: 13px;
+	}
 }
 .trending-card {
 	height: auto;	
