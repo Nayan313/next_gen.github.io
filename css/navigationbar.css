@@ -53,13 +53,13 @@ a {
 }
 
 .header-main.sticky {
-	background-color: #fff;
+	background-color: #242435;
 	color: #000000;
 	padding: 3vh 0;
 }
 
 .header-main {
-	background: #fff;
+	background: #000;
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
@@ -72,13 +72,7 @@ a {
 }
 
 .header .logo {
-<<<<<<< HEAD
 	width: 30%;
-=======
-	font-weight: 500;
-	width: auto;
-	color: var(--main-color);
->>>>>>> 113f57642093664f03da683752ea518ca158cdb6
 }
 
 .logo-img {
@@ -114,7 +108,7 @@ a {
 	display: block;
 	padding: 12px 0;
 	font-size: 16px;
-	color: #000000;
+	color: #ffffff;
 	text-transform: uppercase;
 	line-height: 5vh;
 	transition: all 0.3s ease;
@@ -136,7 +130,7 @@ a {
 	box-sizing: border-box;
 	left: 50%;
 	top: 50%;
-	background-color: #000000;
+	background-color: #ffffff;
 	height: 2px;
 	width: 100%;
 	transform: translate(-50%, -50%);
@@ -154,7 +148,7 @@ a {
 
 .header .menu>.menu-item>.sub-menu>.menu-item>a:hover,
 .header .menu>.menu-item:hover>a {
-	color: var(--hover-color);
+	color: #554e8e;
 }
 
 .header .menu>.menu-item>.sub-menu {
@@ -163,9 +157,9 @@ a {
 	position: absolute;
 	left: 0;
 	top: 100%;
-	background-color: #ffffff;
+	background: #353535;
 	padding: 10px 0;
-	border-top: 3px solid var(--hover-color);
+	border-top: 3px solid #554e8e;
 	transform: translateY(10px);
 	transition: all 0.3s ease;
 	opacity: 0;
@@ -195,7 +189,7 @@ a {
 	padding: 10px 20px;
 	font-size: 16px;
 	font-weight: 600;
-	color: #000000;
+	color: #ffffff;
 	transition: all 0.3s ease;
 	text-transform: capitalize;
 }

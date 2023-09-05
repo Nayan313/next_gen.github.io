@@ -1,4 +1,4 @@
-let http = new XMLHttpRequest();
+const http = new XMLHttpRequest();
 
 http.open('get', 'database/product.json', true);
 
@@ -19,12 +19,15 @@ http.onload = function(){
                <img src="${item.img}"  alt="" class="trending-card-img">
                <div class="trending-card-detail">
                   <p class="trending-card-title-name">${item.title}</p>
-                  <p class="trending-card-description">${item.description}</p>
                   <div class="price-and-color">
-                     <div class="">
-                        <h1 class="price-trending">${item.price}</h1>
+                  <h1 class="price-trending">${item.price}</h1>
+                     <div class="fas-icon-section">
+                        <i id="icon-fas" class="fa-solid fa-heart"></i>
+                        <i id="icon-fas" class="fa-regular fa-eye"></i>
+                        <i id="icon-fas" class="fa-solid fa-code-compare"></i>
                      </div>
-                  </div>
+                     </div>
+                     <button class="Add-to-cart-button">add to card</button>
                </div>
             </a>
          `;
@@ -39,7 +42,7 @@ http.onload = function(){
 
 
 
-let https = new XMLHttpRequest();
+const https = new XMLHttpRequest();
 
 https.open('get', 'database/watch.json', true);
 
@@ -53,19 +56,22 @@ https.onload = function(){
 
       let output = "";
 
-      for(let item of watchs){
+      for(let WItem of watchs){
          output += `
          <a href="product (1).html" class="trending-card">
          <img src="../logo/NEXT GEN LOGO PNG.png"  alt="" class="trending-card-logo">
-               <img src="${item.img}"  alt="" class="trending-card-img">
+               <img src="${WItem.img}"  alt="" class="trending-card-img">
                <div class="trending-card-detail">
-                  <p class="trending-card-title-name">${item.title}</p>
-                  <p class="trending-card-description">${item.description}</p>
+                  <p class="trending-card-title-name">${WItem.title}</p>
                   <div class="price-and-color">
-                     <div class="">
-                        <h1 class="price-trending">${item.price}</h1>
+                  <h1 class="price-trending">${WItem.price}</h1>
+                     <div class="fas-icon-section">
+                        <i id="icon-fas" class="fa-solid fa-heart"></i>
+                        <i id="icon-fas" class="fa-regular fa-eye"></i>
+                        <i id="icon-fas" class="fa-solid fa-code-compare"></i>
                      </div>
-                  </div>
+                     </div>
+                     <button class="Add-to-cart-button">add to card</button>
                </div>
             </a>
          `;
@@ -79,7 +85,7 @@ https.onload = function(){
 
 
 
-let LHttps = new XMLHttpRequest();
+const LHttps = new XMLHttpRequest();
 
 LHttps.open('get', 'database/laptop.json', true);
 
@@ -93,19 +99,23 @@ LHttps.onload = function(){
 
       let output = "";
 
-      for(let item of laptops){
+      for(let LItem of laptops){
          output += `
+         
          <a href="product (1).html" class="trending-card">
          <img src="../logo/NEXT GEN LOGO PNG.png"  alt="" class="trending-card-logo">
-               <img src="${item.img}"  alt="" class="trending-card-img">
+               <img src="${LItem.img}"  alt="" class="trending-card-img">
                <div class="trending-card-detail">
-                  <p class="trending-card-title-name">${item.title}</p>
-                  <p class="trending-card-description">${item.description}</p>
+                  <p class="trending-card-title-name">${LItem.title}</p>
                   <div class="price-and-color">
-                     <div class="">
-                        <h1 class="price-trending">${item.price}</h1>
+                  <h1 class="price-trending">${LItem.price}</h1>
+                     <div class="fas-icon-section">
+                        <i id="icon-fas" class="fa-solid fa-heart"></i>
+                        <i id="icon-fas" class="fa-regular fa-eye"></i>
+                        <i id="icon-fas" class="fa-solid fa-code-compare"></i>
                      </div>
-                  </div>
+                     </div>
+                     <button class="Add-to-cart-button">add to card</button>
                </div>
             </a>
          `;

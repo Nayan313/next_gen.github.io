@@ -1,16 +1,16 @@
 [
     {
       "id": "1",
-      "title": "Crossback Halter Dress",
-      "description": "A shapely halter dress designed with slinky crossback straps and a leg-baring slit is an elegant option for your upcoming event.",
-      "img": "database/watch/galaxy6.jpg",
+      "title": "Galaxy watch 6 Ultra",
+      "img": "database/watch/watch (1).png",
+      "brand": "SAMSUNG",
       "price": "67,599"
     },
     {
       "id": "2",
-      "title": "Cutout Waist Long Sleeve Jersey Gown",
-      "description": "An oversized rosette unites the two halves of this arresting ruched gown sewn from crepe-textured jersey.",
-      "img": "database/watch/iwatch.jpg",
+      "title": "Apple Watch 8 ultra",
+      "img": "database/watch/watch (2).png",
+      "brand": "APPLE",
       "price": "45,789"
     }
 ]
